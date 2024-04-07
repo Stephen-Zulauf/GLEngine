@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\primatives">
+      <UniqueIdentifier>{dc38c45e-5f63-43b0-9c9b-73b2c5103287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{4a2ba27c-e4e5-4cf8-ae16-653d22030028}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h">
@@ -20,6 +26,30 @@
     </ClInclude>
     <ClInclude Include="SDL.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files\primatives</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\primatives</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Header Files\primatives</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\primatives</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chick.h">
+      <Filter>Header Files\primatives</Filter>
+    </ClInclude>
+    <ClInclude Include="Primative.h">
+      <Filter>Header Files\primatives</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -32,5 +62,13 @@
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertexShader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="fragmentShader.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -137,13 +137,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Chick.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="config.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="Primative.h" />
+    <ClInclude Include="Renderer.h" />
     <ClInclude Include="SDL.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Quad.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SDL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.glsl" />
+    <None Include="vertexShader.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

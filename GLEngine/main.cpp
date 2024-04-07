@@ -13,6 +13,7 @@ int main(int argc, char** args) {
 	mainLoop();
 
 	cleanUp();*/
+
 	SDL test(SDL_INIT_VIDEO);
 	test.createWindow("main", "test", 30, 30, 640, 480, SDL_WINDOW_OPENGL);
 	test.createContext("main");
